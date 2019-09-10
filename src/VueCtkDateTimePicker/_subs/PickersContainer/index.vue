@@ -185,7 +185,7 @@
       height () {
         return !this.onlyTime
           ? this.month
-            ? (this.month.getMonthDays().length + this.month.getWeekStart()) > 35 ? 347 : 307
+            ? (this.month.getMonthDays().length + this.month.getWeekStart()) > 35 ? 347 : 330
             : 180
           : 200
       },
